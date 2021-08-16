@@ -8,3 +8,5 @@ variable "avability_zone" {}
 variable "subnet_range" {}
 
 variable "intenet-gateway-name" {}
+
+variable "routing-policy-name" {}
