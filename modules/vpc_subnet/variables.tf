@@ -1,4 +1,9 @@
-variable "mod-var-vpc-name" {
-  description = "Name of the VPC"
-}
+# vpc variable
+variable "mod-var-vpc-name" {}
 variable "mod-var-cidr-block-vpc"{}
+
+
+# subnet variable
+variable "mod-var-subnet-name" {}
+variable "mod-var-az" {}
+variable "mod-var-subnet-cidr-range" {}
