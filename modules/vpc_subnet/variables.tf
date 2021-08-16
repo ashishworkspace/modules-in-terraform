@@ -7,3 +7,5 @@ variable "mod-var-cidr-block-vpc"{}
 variable "mod-var-subnet-name" {}
 variable "mod-var-az" {}
 variable "mod-var-subnet-cidr-range" {}
+
+variable "mod-var-internet-gw" {}

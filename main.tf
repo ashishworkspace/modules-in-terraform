@@ -10,6 +10,9 @@ module "vpc-subnet-configuration" {
   mod-var-subnet-name = var.subnet_name 
   mod-var-az = var.avability_zone
   mod-var-subnet-cidr-range = var.subnet_range
+
+  mod-var-internet-gw = var.intenet-gateway-name
+
 }
 
 
