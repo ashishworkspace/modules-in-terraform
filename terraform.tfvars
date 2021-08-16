@@ -9,3 +9,7 @@ subnet_range = "192.168.1.0/24"
 intenet-gateway-name = "terraform-internet-gateway"
 
 routing-policy-name = "terraform-routing-policy"
+
+
+public-key-location = "./modules/webserver/aws_ssh.pub"
+key-name = "aws-password"
