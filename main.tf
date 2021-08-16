@@ -16,4 +16,9 @@ module "vpc-subnet-configuration" {
   mod-var-routing-name = var.routing-policy-name
 }
 
+module "websever-setup" {
+  source = "./modules/webserver"
+  mod-var-aws-key-name = var.key-name
+  mod-var-public_key_location  = var.public-key-location
+}
 

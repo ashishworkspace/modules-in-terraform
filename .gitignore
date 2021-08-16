@@ -7,3 +7,7 @@
 # ignoring state file
 *.tfstate
 *.tfstate*
+
+# ignoring the SSH key both PRIVATE AND PUBLIC
+modules/webserver/aws_ssh
+modules/webserver/aws_ssh.pub

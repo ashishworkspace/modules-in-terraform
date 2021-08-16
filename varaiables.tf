@@ -10,3 +10,7 @@ variable "subnet_range" {}
 variable "intenet-gateway-name" {}
 
 variable "routing-policy-name" {}
+
+
+variable "public-key-location" {}
+variable "key-name" {}
