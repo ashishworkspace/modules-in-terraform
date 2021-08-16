@@ -1,0 +1,8 @@
+# ignoreing .terraform package folder i.e. provider
+.terraform
+
+# ignoreing terraform.lock.hcl file
+.terraform.lock.hcl
+
+# ignoring state file
+*.tfstate
