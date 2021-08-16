@@ -6,3 +6,4 @@
 
 # ignoring state file
 *.tfstate
+*.tfstate*

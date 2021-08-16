@@ -20,3 +20,12 @@ resource "aws_subnet" "mod-var-subnet" {
     cidr_block = "${var.mod-var-subnet-cidr-range}"
     vpc_id = aws_vpc.mod-var-vpc.id  
 }
+
+
+# Creating Internet Gateway
+resource "aws_internet_gateway" "mod-var-ig" {
+  vpc_id = aws_vpc.mod-var-vpc.id
+  tags = {
+    "Name" = "${var.mod-var-internet-gw}"
+  }
+}
