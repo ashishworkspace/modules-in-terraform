@@ -20,5 +20,7 @@ module "websever-setup" {
   source = "./modules/webserver"
   mod-var-aws-key-name = var.key-name
   mod-var-public_key_location  = var.public-key-location
+  mod-var-vpc-id = module.vpc-subnet-configuration.vpc-instance.id    # module.{module_name}.{output_name}.{variable_name} #output_name comes from module with outputs.tf
+  mod-var-ipv4-local-ingress = var.local-ipv4
 }
 

@@ -13,3 +13,5 @@ routing-policy-name = "terraform-routing-policy"
 
 public-key-location = "./modules/webserver/aws_ssh.pub"
 key-name = "aws-password"
+
+local-ipv4 = "49.37.78.113/32"
