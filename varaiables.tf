@@ -16,3 +16,10 @@ variable "public-key-location" {}
 variable "key-name" {}
 
 variable "local-ipv4" {}
+
+
+
+
+
+variable "avability_zone_instance" {}
+variable "no-of-instance" {}
