@@ -31,3 +31,15 @@ resource "aws_security_group" "security-group" {
    to_port = 0
  } 
 }
+
+# Launching an instance
+resource "aws_instance" "instance-in-aws" {
+  ami = var.mod-var-ami
+  availability_zone = var.mod-var-az
+  associate_public_ip_address = true
+  count = var.mod-var-no-of-instance
+  instance_type = "t2.micro"
+  subnet_id = var.mod-var-subnet-id
+  vpc_security_group_ids = [aws_security_group.security-group.id]
+  key_name = "${var.mod-var-aws-key-name}"
+}
