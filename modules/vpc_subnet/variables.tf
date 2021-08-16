@@ -9,3 +9,6 @@ variable "mod-var-az" {}
 variable "mod-var-subnet-cidr-range" {}
 
 variable "mod-var-internet-gw" {}
+
+
+variable "mod-var-routing-name" {}

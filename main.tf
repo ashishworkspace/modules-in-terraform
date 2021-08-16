@@ -12,7 +12,8 @@ module "vpc-subnet-configuration" {
   mod-var-subnet-cidr-range = var.subnet_range
 
   mod-var-internet-gw = var.intenet-gateway-name
-
+ 
+  mod-var-routing-name = var.routing-policy-name
 }
 
 

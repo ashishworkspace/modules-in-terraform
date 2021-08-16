@@ -7,3 +7,5 @@ avability_zone = "ap-south-1a"
 subnet_range = "192.168.1.0/24"
 
 intenet-gateway-name = "terraform-internet-gateway"
+
+routing-policy-name = "terraform-routing-policy"
