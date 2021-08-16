@@ -14,3 +14,5 @@ variable "routing-policy-name" {}
 
 variable "public-key-location" {}
 variable "key-name" {}
+
+variable "local-ipv4" {}
